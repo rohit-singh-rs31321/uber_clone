@@ -13,7 +13,6 @@ body {
 }
 
 .navbar-nav {
-
   padding: .25rem 0;
 }
 
@@ -44,57 +43,56 @@ body {
   background-color: #424245;
 }
 
-.bg-image {
-  background-image: url(../image/home2.jpg);
-  padding: 100px 10vw;
+.first_section {
+  background-image: url('../image/about_img/About_us_600.webp');
   background-size: cover;
-  min-height: 60vh;
-  background-position: bottom;
-  display: flex;
-  align-items: center;
-  transform: scaleX(1);
-
-
-}
-
-.leftSec {
-  background-color: #ffffff;
-  border: 1px solid black;
-  min-width: 30vw;
-  padding: 2rem 2rem 4rem 2rem;
-}
-
-.ride-icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  max-height: 100vh;
+  height: 60vh;
+  background-position: center center;
+  background-repeat: no-repeat;
 
 }
 
-
-
-.ride-icon span {
-  font-weight: bold;
-  font-size: 24px;
-
+.first_section h1 {
+  padding-top: 50dvh;
 }
 
-.icon_rideWith {
-  height: 150px;
-  width: 150px;
+.second_section {
+  width: 70%;
 }
 
-svg:hover {
-  right: -100px
-}
-
-/* .container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 100px;
+/* .second_section p,.first_accordion_body,.fourth_section h6,.fifth_section h5{
+    font-size: 14px;
 } */
+
+.third_section {
+  background-image: url('../image/about_img/ceo.webp');
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  max-height: 100vh;
+  background-position: center;
+
+}
+
+.seventh_section {
+  /* background-color: #f9f9f9; */
+  background-image: url('../image/about_img/globe-ea.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 340px;
+}
+
+.active {
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+
+.active:hover {
+  color: #ffffff;
+  background-color: #424245;
+}
 
 
 /*-----footer ---------*/
